@@ -1,0 +1,23 @@
+version: 0.0
+os: linux
+files:
+ -source: /
+  destinaton: /var/www/html/wordpress
+#hooks:
+# Beforeinstall:
+#   - location: scripts/install_dependencies.sh
+#     timeout: 300
+#     runas: root
+# Afterinstall:
+#    - location: scripts/change_permission.sh
+#     timeout: 300
+#     runas: root
+# Applicationstart
+#   - location: scripts/start_server.sh
+#   - location: scripts/create_test_db.sh
+#     timeout: 300
+#     runas: root
+# Applicationstop:
+#   - location: scripts/stop_server.sh
+#     timeout: 300
+#     runas: root 
